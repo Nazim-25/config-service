@@ -71,7 +71,6 @@
 						<id>default</id>
 						<phase>install</phase>
 						<goals>
-							
 						</goals>
 					</execution>
 				</executions>
