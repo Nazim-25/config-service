@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class CloudConfigApplication {
 	
+	
 	@GetMapping("/message")
 	public String welcome() {
 		return "Cloud config starts ";
