@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableConfigServer
 @RestController
 public class CloudConfigApplication {
+	
 	@GetMapping("/message")
 	public String welcome() {
 		return "Cloud config starts ";
